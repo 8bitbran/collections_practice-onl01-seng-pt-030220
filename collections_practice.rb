@@ -32,4 +32,7 @@ def find_a(array)
   array.select {|string| string.start_with?("a")}
 end
 
-
+def sum_array(array)
+  array_sum = 0 
+  array.each {|num| array_sum += num
+end 
