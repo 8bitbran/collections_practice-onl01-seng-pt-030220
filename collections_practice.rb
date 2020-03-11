@@ -39,5 +39,5 @@ def sum_array(array)
 end 
 
 def add_s(array)
-  array.reject.with_index {|string, index| index == 2}.any? {
+  array.reject.with_index {|string, index| index == 2}.any? {|
 end
