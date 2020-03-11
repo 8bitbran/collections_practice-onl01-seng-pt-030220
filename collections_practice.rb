@@ -3,5 +3,6 @@ def sort_array_asc(array)
 end 
 
 def sort_array_desc
-  array.sort_by {|str| -str.length}
+  new_array = array.sort 
+  new_array
 end 
