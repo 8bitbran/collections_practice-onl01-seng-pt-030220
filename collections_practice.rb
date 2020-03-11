@@ -39,5 +39,5 @@ def sum_array(array)
 end 
 
 def add_s(array)
-  array.each.with_index {|string, index| string = string + "s" if index != 1}
+  array.each.with_index {|string, index| string = string + "s"}
 end
