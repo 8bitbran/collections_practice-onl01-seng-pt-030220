@@ -17,5 +17,5 @@ end
 
 def reverse_array
   new_array = array.reverse
-  array.join
+  new_array.join
 end 
